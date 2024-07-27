@@ -1,0 +1,67 @@
+SE-Assignment-6
+Assignment: Introduction to Python Instructions: Answer the following questions based on your understanding of Python programming. Provide detailed explanations and examples where appropriate.
+Questions:
+1.	Python Basics:
+o	What is Python, and what are some of its key features that make it popular among developers? Provide examples of use cases where Python is particularly effective.
+Python is a high-level, versatile programming language known for its readability and large standard library.
+Use Cases:
+•	Web Development (e.g., Django, Flask)
+•	Data Analysis (e.g., Pandas, NumPy)
+•	AI (e.g., TensorFlow, PyTorch)
+Reference: Lutz, M., 2013. Learning Python. 5th ed. O'Reilly Media.
+o	
+
+2.	Installing Python:
+o	Describe the steps to install Python on your operating system (Windows, macOS, or Linux). Include how to verify the installation and set up a virtual environment.
+installing Python on Windows:
+      Download from python.org.
+Install and add to PATH.
+Verify with python --version.
+3.	Python Syntax and Semantics:
+o	Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
+print("Hello, World!") = Hello, World! Program
+
+4.	Data Types and Variables:
+List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
+ • Integer (int)
+• Float (float)
+• String (str)
+• Boolean (bool)
+
+5.	Control Structures:
+o	Explain the use of conditional statements and loops in Python. Provide examples of an if-else statement and a for loop.
+For Loop:
+for i in range(5):
+    print(i)
+If-Else Statement:
+ x = 10
+if x > 5:
+    print("x is greater than 5")
+else:
+                       print("x is 5 or less")
+6.	Functions in Python:
+o	What are functions in Python, and why are they useful? Write a Python function that takes two arguments and returns their sum. Include an example of how to call this function.
+def add_numbers(a, b):
+    return a + b
+result = add_numbers(5, 3)
+print(result)
+7.	Lists and Dictionaries:
+o	Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
+Lists: Ordered, mutable (e.g., [1, 2, 3]).
+Dictionaries: Unordered, key-value pairs (e.g., {'key': 'value'}).
+8.	Exception Handling:
+o	What is exception handling in Python? Provide an example of how to use try, except, and finally blocks to handle errors in a Python script.
+Lists: Ordered, mutable (e.g., [1, 2, 3]).
+Dictionaries: Unordered, key-value pairs (e.g., {'key': 'value'}).
+
+9.	Modules and Packages:
+o	Explain the concepts of modules and packages in Python. How can you import and use a module in your script? Provide an example using the math module.
+import math
+print(math.sqrt(16))
+10.	File I/O:
+o	How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file. Lists: Ordered, mutable (e.g., [1, 2, 3]).
+o	Dictionaries: Unordered, key-value pairs (e.g., {'key': 'value'}).
+
+
+Reference: 
+Lutz, M., 2013. Learning Python. 5th ed. O'Reilly Media.
